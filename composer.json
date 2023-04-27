@@ -1,7 +1,7 @@
 {
     "name": "cockycat/php-gpt",
     "description": "A PHP Library for LLM",
-    "keywords": ["sts", "oss", "laravel", "lumen", "aliyun"],
+    "keywords": ["laravel", "lumen", "gpt", "chatGPT", "php chatGPT", "php-gpt"],
     "authors": [
         {
             "name": "garyxu",
