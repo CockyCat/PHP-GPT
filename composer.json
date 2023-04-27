@@ -1,0 +1,29 @@
+{
+    "name": "cockycat/php-gpt",
+    "description": "A PHP Library for LLM",
+    "keywords": ["sts", "oss", "laravel", "lumen", "aliyun"],
+    "authors": [
+        {
+            "name": "garyxu",
+            "email": "garyxu@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "guzzlehttp/guzzle": "^7.0",
+        "league/oauth2-client": "^2.6",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cockycat\\PhpGpt\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cockycat\\PhpGpt\\PhpGptServiceProvider"
+            ]
+        }
+    }
+}
